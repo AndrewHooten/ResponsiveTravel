@@ -1,0 +1,36 @@
+body {
+    background-color: gray;
+    margin:0px;
+    padding:0px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+img {
+    width:50%;
+}
+.pyongyang {
+    padding: 4px;
+    text-align:center;
+}
+.reasons {
+    padding:4px;
+}
+@media (max-width:992px) {
+    img {
+        display:inline;
+    }
+}
+@media (max-width:768px) {
+    .pyongyang {
+        float: left;
+    }
+}
+@media (max-width:576px) {
+    .reasons {
+        display:inline;
+    }
+}
